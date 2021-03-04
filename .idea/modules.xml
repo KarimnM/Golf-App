@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/The_Brilliants'_Mini-Golf.iml" filepath="$PROJECT_DIR$/.idea/modules/The_Brilliants'_Mini-Golf.iml" group="The_Brilliants'_Mini-Golf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="The Brilliants' Mini-Golf/app" />
+    </modules>
+  </component>
+</project>
