@@ -1,4 +1,0 @@
-#Thu Mar 04 15:50:59 EST 2021
-base.0=/Users/admin/Golf-App52/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
