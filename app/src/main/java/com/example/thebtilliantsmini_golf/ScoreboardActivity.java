@@ -1,0 +1,69 @@
+package com.example.thebtilliantsmini_golf;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ScoreboardActivity extends AppCompatActivity {
+
+
+//    TextView hole = findViewById(R.id.holeNum);
+//     hole.setText("1");
+//    int hole1=Integer.parseInt(hole.getText().toString());
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_scoreboard);
+
+
+        Button plus = findViewById(R.id.plus);
+        Button minus = findViewById(R.id.minus);
+
+        Intent intent = getIntent();
+        String title1 = intent.getStringExtra(addPlayerActivity.EXTRA_TEXT1);
+        String player1 = intent.getStringExtra(addPlayerActivity.EXTRA_TEXT2);
+        String player2= intent.getStringExtra(addPlayerActivity.EXTRA_TEXT3);
+
+        TextView gameTitle = findViewById(R.id.gameTitle1);
+        TextView Player1 = findViewById(R.id.Player1);
+        TextView Player2 = findViewById(R.id.Player2);
+
+        gameTitle.setText(title1);
+        Player1.setText(player1);
+        Player2.setText(player2);
+
+
+        plus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        minus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                minusHole();
+            }
+        });
+
+
+        System.out.println("HELLO WORLD!");
+        System.out.println(title1);
+    }
+
+
+
+    void minusHole(){
+        TextView hole = findViewById(R.id.holeNum);
+        hole.setText("1");
+        int hole1=1;
+        hole1=hole1-1;
+    }
+}

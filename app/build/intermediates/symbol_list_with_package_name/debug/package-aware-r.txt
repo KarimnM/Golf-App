@@ -23,6 +23,7 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+array number_of_holes
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -810,8 +811,13 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
+id HPimageBt
+id HPimageBt2
+id HPimageBt3
 id META
 id NO_DEBUG
+id Player1
+id Player2
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -930,6 +936,9 @@ id expand_activities_button
 id expanded_menu
 id flip
 id forever
+id gameTitle
+id gameTitle1
+id gameTitleEdit
 id gone
 id graph
 id graph_wrap
@@ -937,6 +946,9 @@ id group_divider
 id grouping
 id groups
 id helpButton
+id helpImageButton
+id helpImageButton3
+id holeNum
 id home
 id homeAsUp
 id honorRequest
@@ -953,6 +965,8 @@ id jumpToEnd
 id jumpToStart
 id layout
 id left
+id letsPlay
+id letsPlayButton
 id line1
 id line3
 id linear
@@ -961,6 +975,7 @@ id list_item
 id loadSGButton
 id message
 id middle
+id minus
 id motion_base
 id multiply
 id never
@@ -979,6 +994,9 @@ id parentRelative
 id path
 id pathRelative
 id percent
+id player1
+id player2
+id plus
 id position
 id postLayout
 id progress_circular
@@ -991,6 +1009,8 @@ id right
 id right_icon
 id right_side
 id sawtooth
+id score
+id scoreboard
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -1012,6 +1032,7 @@ id showHome
 id showTitle
 id sin
 id spacer
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -1044,6 +1065,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
 id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
 id time
 id title
 id titleDividerNoCustom
@@ -1102,7 +1128,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_player
+layout activity_help
 layout activity_main
+layout activity_newgame
+layout activity_savedgame
+layout activity_scoreboard
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
