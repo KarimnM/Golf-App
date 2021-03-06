@@ -21,7 +21,7 @@
         <activity android:name="com.example.thebtilliantsmini_golf.addPlayerActivity" />
         <activity android:name="com.example.thebtilliantsmini_golf.ScoreboardActivity" />
         <activity android:name="com.example.thebtilliantsmini_golf.SavedGameActivity" />
-        <activity android:name="com.example.thebtilliantsmini_golf.NewgameActivity" />
+        <activity android:name="com.example.thebtilliantsmini_golf.NewGameActivity" />
         <activity android:name="com.example.thebtilliantsmini_golf.HelpActivity" />
         <activity android:name="com.example.thebtilliantsmini_golf.Splash" >
             <intent-filter>

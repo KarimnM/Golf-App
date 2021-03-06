@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewgameActivity">
+    tools:context=".NewGameActivity">
 
     <ImageButton
         android:id="@+id/HPimageBt3"
@@ -44,7 +44,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter game title here!" />
+            android:hint="@string/enter_game_title_here" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -52,7 +52,7 @@
         android:layout_width="362dp"
         android:layout_height="77dp"
         android:clickable="false"
-        android:text="New Games"
+        android:text="@string/new_games"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,8 +64,10 @@
 
     <Button
         android:id="@+id/letsPlayButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_corners"
+        android:textSize="24sp"
         android:text="Let's Play!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

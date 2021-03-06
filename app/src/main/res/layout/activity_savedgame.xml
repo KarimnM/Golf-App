@@ -23,7 +23,7 @@
         android:layout_width="362dp"
         android:layout_height="77dp"
         android:clickable="false"
-        android:text="Saved Games"
+        android:text="@string/saved_games"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
