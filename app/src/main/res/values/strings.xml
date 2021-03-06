@@ -48,7 +48,10 @@
 
     <!--New Game Page-->
     <string name="play">Let\'s Play!</string>
-    <string name="enter_game_title_here">Enter game title here!</string>
+    <string name="enter_game_title_here">Enter game title here</string>
+    <string name="add_players">Add Players</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
 
     <!--Saved Games Page-->
     <string name="saved_games">Saved Games</string>
