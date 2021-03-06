@@ -6410,7 +6410,7 @@
         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
         in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
         sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</string><string name="new_games">New Games</string><string name="play">Let\'s Play!</string><string name="enter_game_title_here">Enter game title here!</string><string name="saved_games">Saved Games</string><string name="current_strokes">Current Strokes</string><string name="current_hole">Current Hole</string><string name="full_scorecard">Full Scorecard</string><string name="total_score">Total Score</string><string name="scorecard">Scorecard</string></file><file path="D:\Documents\School\VCU\2021Spring\CMSC475\Golf-App-Master\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        laborum.</string><string name="play">Let\'s Play!</string><string name="enter_game_title_here">Enter game title here!</string><string name="saved_games">Saved Games</string><string name="current_strokes">Current Strokes</string><string name="current_hole">Current Hole</string><string name="full_scorecard">Full Scorecard</string><string name="total_score">Total Score</string><string name="scorecard">Scorecard</string></file><file path="D:\Documents\School\VCU\2021Spring\CMSC475\Golf-App-Master\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

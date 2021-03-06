@@ -47,7 +47,6 @@
 
 
     <!--New Game Page-->
-    <string name="new_games">New Games</string>
     <string name="play">Let\'s Play!</string>
     <string name="enter_game_title_here">Enter game title here!</string>
 

@@ -52,7 +52,7 @@
         android:layout_width="362dp"
         android:layout_height="77dp"
         android:clickable="false"
-        android:text="@string/new_games"
+        android:text="@string/new_game"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

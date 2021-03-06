@@ -2380,7 +2380,6 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string new_game
-string new_games
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
