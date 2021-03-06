@@ -23,7 +23,7 @@
         android:layout_width="362dp"
         android:layout_height="77dp"
         android:clickable="false"
-        android:text="Saved Games"
+        android:text="@string/saved_games"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,5 +43,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.007"
-        app:srcCompat="@android:drawable/ic_menu_help" />
+        app:srcCompat="@android:drawable/ic_menu_help"
+        android:contentDescription="TODO" />
 </androidx.constraintlayout.widget.ConstraintLayout>
