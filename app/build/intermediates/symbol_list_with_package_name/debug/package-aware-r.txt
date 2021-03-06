@@ -2305,6 +2305,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_players
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2386,6 +2387,8 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string play
+string player_1
+string player_2
 string saved_games
 string scorecard
 string search_menu_title

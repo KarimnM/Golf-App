@@ -1061,6 +1061,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="add_players">Add Players</string>
     <string name="app_name">The Brilliants\' Mini_GOLF</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
@@ -1073,7 +1074,7 @@
     <string name="copyright">Copyright © 2021 theBrilliants’ Inc, All rights reserved.</string>
     <string name="current_hole">Current Hole</string>
     <string name="current_strokes">Current Strokes</string>
-    <string name="enter_game_title_here">Enter game title here!</string>
+    <string name="enter_game_title_here">Enter game title here</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
@@ -1147,6 +1148,8 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="play">Let\'s Play!</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
     <string name="saved_games">Saved Games</string>
     <string name="scorecard">Scorecard</string>
     <string name="search_menu_title">Search</string>

@@ -8,12 +8,12 @@
         "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corners.xml.flat",
         "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
