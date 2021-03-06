@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,6 +26,14 @@ public class addPlayerActivity extends AppCompatActivity {
         //player1 = findViewById(R.id.player1);
         //player2 = findViewById(R.id.player2);
         letsPlay = findViewById(R.id.letsPlay);
+        ImageButton hpimagebt = findViewById(R.id.HPimageBt4);
+
+        hpimagebt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mainActivity();
+            }
+        });
 
         letsPlay.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,6 +59,11 @@ public class addPlayerActivity extends AppCompatActivity {
         intent.putExtra(EXTRA_TEXT1, gameTitle);
         intent.putExtra(EXTRA_TEXT2, player1Text);
         intent.putExtra(EXTRA_TEXT3, player2Text);
+        startActivity(intent);
+    }
+
+    void mainActivity(){
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 

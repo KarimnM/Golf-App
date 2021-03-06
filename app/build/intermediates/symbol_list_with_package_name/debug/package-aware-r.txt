@@ -1692,6 +1692,7 @@ id FUNCTION
 id HPimageBt
 id HPimageBt2
 id HPimageBt3
+id HPimageBt4
 id META
 id NO_DEBUG
 id Player1
