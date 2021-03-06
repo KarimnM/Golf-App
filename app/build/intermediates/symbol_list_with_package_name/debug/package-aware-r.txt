@@ -1680,6 +1680,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rect_round
 drawable rounded_corners
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -2082,6 +2083,7 @@ id textStart
 id textTop
 id textView
 id textView10
+id textView11
 id textView2
 id textView3
 id textView4
@@ -2089,6 +2091,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2318,6 +2321,7 @@ string clear_text_end_icon_content_description
 string copyright
 string current_hole
 string current_strokes
+string default_score
 string enter_game_title_here
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

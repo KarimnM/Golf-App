@@ -62,5 +62,6 @@
     <string name="full_scorecard">Full Scorecard</string>
     <string name="total_score">Total Score</string>
     <string name="scorecard">Scorecard</string>
+    <string name="default_score">0</string>
 
 </resources>
