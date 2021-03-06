@@ -19,6 +19,8 @@ public class ScoreboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scoreboard);
 
+        //Created back button
+        TextView back = findViewById(R.id.back);
 
 
         Intent intent = getIntent();
