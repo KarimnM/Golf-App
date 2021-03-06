@@ -24,6 +24,7 @@ anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
 array number_of_holes
+array number_of_strokes
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -894,6 +895,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id buttonPanel
 id cache_measures
 id center
@@ -948,7 +950,6 @@ id groups
 id helpButton
 id helpImageButton
 id helpImageButton3
-id holeNum
 id home
 id homeAsUp
 id honorRequest
@@ -975,7 +976,6 @@ id list_item
 id loadSGButton
 id message
 id middle
-id minus
 id motion_base
 id multiply
 id never
@@ -996,7 +996,6 @@ id pathRelative
 id percent
 id player1
 id player2
-id plus
 id position
 id postLayout
 id progress_circular
@@ -1033,6 +1032,8 @@ id showTitle
 id sin
 id spacer
 id spinner
+id spinner2
+id spinner3
 id spline
 id split_action_bar
 id spread
@@ -1064,12 +1065,14 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView10
 id textView2
 id textView3
 id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id time
 id title
 id titleDividerNoCustom

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="number_of_holes">
-        <item>Choose number of Holes</item>
+        <item>Hole number</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -11,6 +11,19 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
+    </string-array>
+    <string-array name="number_of_strokes">
+        <item>Select Total Strokes</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
     <attr format="reference" name="animate_relativeTo"/>
     <attr format="enum" name="arcMode">

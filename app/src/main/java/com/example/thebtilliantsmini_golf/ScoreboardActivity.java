@@ -22,8 +22,6 @@ public class ScoreboardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scoreboard);
 
 
-        Button plus = findViewById(R.id.plus);
-        Button minus = findViewById(R.id.minus);
 
         Intent intent = getIntent();
         String title1 = intent.getStringExtra(addPlayerActivity.EXTRA_TEXT1);
@@ -39,19 +37,7 @@ public class ScoreboardActivity extends AppCompatActivity {
         Player2.setText(player2);
 
 
-        plus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-            }
-        });
-
-        minus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                minusHole();
-            }
-        });
 
 
         System.out.println("HELLO WORLD!");
@@ -60,10 +46,4 @@ public class ScoreboardActivity extends AppCompatActivity {
 
 
 
-    void minusHole(){
-        TextView hole = findViewById(R.id.holeNum);
-        hole.setText("1");
-        int hole1=1;
-        hole1=hole1-1;
-    }
 }
