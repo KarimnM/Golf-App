@@ -19,13 +19,19 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.thebtilliantsmini_golf.MainActivity" >
+        <activity android:name="com.example.thebtilliantsmini_golf.addPlayerActivity" />
+        <activity android:name="com.example.thebtilliantsmini_golf.ScoreboardActivity" />
+        <activity android:name="com.example.thebtilliantsmini_golf.SavedGameActivity" />
+        <activity android:name="com.example.thebtilliantsmini_golf.NewgameActivity" />
+        <activity android:name="com.example.thebtilliantsmini_golf.HelpActivity" />
+        <activity android:name="com.example.thebtilliantsmini_golf.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.thebtilliantsmini_golf.MainActivity" />
     </application>
 
 </manifest>
