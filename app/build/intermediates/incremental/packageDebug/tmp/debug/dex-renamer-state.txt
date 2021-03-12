@@ -1,4 +1,4 @@
-#Sat Mar 06 01:05:52 EST 2021
-base.0=C\:\\Users\\18047\\StudioProjects\\Golf-App1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Thu Mar 11 23:14:06 EST 2021
+base.0=/Users/admin/Golf-App58/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

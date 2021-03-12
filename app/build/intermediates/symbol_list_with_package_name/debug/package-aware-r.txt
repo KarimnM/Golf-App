@@ -1994,6 +1994,8 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recipeDate
+id recipeName
 id rectangles
 id reverseSawtooth
 id right
