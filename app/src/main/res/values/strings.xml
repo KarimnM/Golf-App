@@ -57,11 +57,14 @@
     <string name="saved_games">Saved Games</string>
 
     <!--Scoreboard-->
-    <string name="current_strokes">Current Strokes</string>
+    <string name="strokes">Strokes</string>
     <string name="current_hole">Current Hole</string>
     <string name="full_scorecard">Full Scorecard</string>
     <string name="total_score">Total Score</string>
-    <string name="scorecard">Scorecard</string>
+    <string name="scoreboard">Scoreboard</string>
     <string name="default_score">0</string>
+
+    <!--Navigation-->
+    <string name="back">Back</string>
 
 </resources>

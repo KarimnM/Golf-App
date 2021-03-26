@@ -1684,7 +1684,8 @@ drawable rounded_corners
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-font proxima_nova_alt_regular
+font proxima_nova_bold
+font proxima_nova_italic
 font proxima_nova_regular
 id ALT
 id BOTTOM_END
@@ -2316,6 +2317,7 @@ string abc_toolbar_collapse_description
 string add_players
 string app_name
 string appbar_scrolling_view_behavior
+string back
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
@@ -2325,7 +2327,6 @@ string chip_text
 string clear_text_end_icon_content_description
 string copyright
 string current_hole
-string current_strokes
 string default_score
 string enter_game_title_here
 string error_icon_content_description
@@ -2399,9 +2400,10 @@ string play
 string player_1
 string player_2
 string saved_games
-string scorecard
+string scoreboard
 string search_menu_title
 string status_bar_notification_info_overflow
+string strokes
 string total_score
 string welcome_message
 style AlertDialog_AppCompat

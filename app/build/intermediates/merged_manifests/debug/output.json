@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.example.thebtilliantsmini_golf",
         "split": "",
-        "minSdkVersion": "19"
+        "minSdkVersion": "26"
       }
     }
   ]
