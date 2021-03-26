@@ -1684,6 +1684,8 @@ drawable rounded_corners
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font proxima_nova_alt_regular
+font proxima_nova_regular
 id ALT
 id BOTTOM_END
 id BOTTOM_START
