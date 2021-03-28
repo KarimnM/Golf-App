@@ -24,6 +24,7 @@
         android:layout_height="77dp"
         android:clickable="false"
         android:text="@string/saved_games"
+        android:fontFamily="@font/proxima_nova_bold"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
