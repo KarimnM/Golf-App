@@ -1,7 +1,7 @@
-#Thu Mar 25 23:52:32 EDT 2021
-base.0=D\:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Sun Mar 28 15:16:42 EDT 2021
+base.0=/Users/admin/Golf-App64/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=/Users/admin/Golf-App64/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

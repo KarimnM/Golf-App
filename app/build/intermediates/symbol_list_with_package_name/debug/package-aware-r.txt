@@ -50,6 +50,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array color
 array number_of_holes
 array number_of_strokes
 attr actionBarDivider
@@ -1688,9 +1689,11 @@ font proxima_nova_bold
 font proxima_nova_italic
 font proxima_nova_regular
 id ALT
+id Add
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id DeleteRecipe
 id FUNCTION
 id HPimageBt
 id HPimageBt2
@@ -1705,8 +1708,10 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Save
 id TOP_END
 id TOP_START
+id VV
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1782,6 +1787,7 @@ id blocking
 id bottom
 id bounce
 id button
+id button5
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1866,6 +1872,8 @@ id forever
 id gameTitle
 id gameTitle1
 id gameTitleEdit
+id getPlayerName
+id getRecipeName
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2048,6 +2056,7 @@ id spacer
 id spinner
 id spinner2
 id spinner3
+id spinner4
 id spline
 id split_action_bar
 id spread
@@ -2196,6 +2205,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_player
+layout activity_add_player2
 layout activity_help
 layout activity_main
 layout activity_newgame

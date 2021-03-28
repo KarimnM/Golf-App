@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">The Brilliants\' Mini_GOLF</string>
+        <string-array name="color">
+            <item>Red</item>
+            <item>Blue</item>
+            <item>Orange</item>
+            <item>Yellow</item>
+            <item>Black</item>
+            <item>Green</item>
+            <item>Purple</item>
+            <item>White</item>
 
+        </string-array>
     <!---Scorecard-->
 
     <string-array name="number_of_holes">

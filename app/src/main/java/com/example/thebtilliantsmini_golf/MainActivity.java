@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void addPlayerActivity(){
-        Intent intent = new Intent(this, addPlayerActivity.class);
+        Intent intent = new Intent(this, AddPlayer.class);
         startActivity(intent);
     }
 

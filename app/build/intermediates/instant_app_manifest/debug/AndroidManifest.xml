@@ -20,6 +20,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.thebtilliantsmini_golf.AddPlayer" />
         <activity android:name="com.example.thebtilliantsmini_golf.addPlayerActivity" />
         <activity android:name="com.example.thebtilliantsmini_golf.ScoreboardActivity" />
         <activity android:name="com.example.thebtilliantsmini_golf.SavedGameActivity" />
