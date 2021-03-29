@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -52,14 +53,18 @@ public class AddPlayer extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     //Ingredients
-                    Player I = new Player();
-                    String finaly = getPlayerName.getText().toString();
-                    I.setContent(finaly);
-                    getPlayerName.setText("");
-                    arrayList.add(I);
-                    IngredientsNames.add(finaly);
-                    adapter.notifyDataSetChanged();
+                  if(arrayList.size()==4){//allows a maximum of 4 players
+                      Toast.makeText(AddPlayer.this, "Maximum of 4 players", Toast.LENGTH_SHORT).show();
+                  }else if(arrayList.size()<4) {
 
+                      Player I = new Player();
+                      String finaly = getPlayerName.getText().toString();
+                      I.setContent(finaly);
+                      getPlayerName.setText("");
+                      arrayList.add(I);
+                      IngredientsNames.add(finaly);
+                      adapter.notifyDataSetChanged();
+                  }
                 }
             });
 
