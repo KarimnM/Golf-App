@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,9 +13,10 @@
         android:layout_height="178dp"
         android:clickable="false"
         android:text="@string/welcome_message"
+        android:textColor="#0fb861"
         android:fontFamily="@font/proxima_nova_bold"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,6 +77,7 @@
         android:layout_height="17dp"
         android:text="@string/copyright"
         android:fontFamily="@font/proxima_nova_regular"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.066"

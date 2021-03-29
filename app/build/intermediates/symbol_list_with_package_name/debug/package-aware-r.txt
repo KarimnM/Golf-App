@@ -1693,7 +1693,6 @@ id Add
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id DeleteRecipe
 id FUNCTION
 id HPimageBt
 id HPimageBt2
@@ -1787,7 +1786,6 @@ id blocking
 id bottom
 id bounce
 id button
-id button5
 id buttonPanel
 id cache_measures
 id cancel_button

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-
+    android:background="#000000"
     android:layout_height="match_parent">
 
     <EditText
@@ -13,6 +13,9 @@
         android:layout_marginStart="18dp"
         android:ems="10"
         android:hint="Player Name"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
         android:fontFamily="@font/proxima_nova_regular"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/Add"
@@ -27,6 +30,7 @@
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/proxima_nova_regular"
         android:text="Add"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@id/getPlayerName"
         app:layout_constraintTop_toBottomOf="@id/getRecipeName" />
 
@@ -40,46 +44,29 @@
         android:ems="10"
         android:hint="Game Name"
         android:fontFamily="@font/proxima_nova_regular"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/VV"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginBottom="37dp"
-        android:background="@drawable/rounded_corners"
-        android:fontFamily="@font/proxima_nova_regular"
-        android:onClick="Bakbtnn"
-        android:text="Back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/Save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="37dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/proxima_nova_regular"
         android:onClick="save"
         android:text="@string/play"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button5"
-        app:layout_constraintStart_toEndOf="@+id/button5" />
-
-    <Button
-        android:id="@+id/DeleteRecipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="37dp"
-        android:text="Delete Recipe"
-        android:visibility="gone"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ListView
         android:id="@+id/VV"
