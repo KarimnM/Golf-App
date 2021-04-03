@@ -17,6 +17,7 @@ import java.util.Calendar;
 public class AddPlayer extends AppCompatActivity {
     DatabaseHelper mDatabaseHelp;
     EditText text;
+    Button Add; //adding add button
     Button Adding;
     Button save;
     ListView addedItems;
