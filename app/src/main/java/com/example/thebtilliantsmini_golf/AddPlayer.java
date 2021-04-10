@@ -12,10 +12,9 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 public class AddPlayer extends AppCompatActivity {
-    DatabaseHelper mDatabaseHelp;
+    DBHelper mDatabaseHelp;
     EditText text;
     Button Add; //adding add button
     Button Adding;
