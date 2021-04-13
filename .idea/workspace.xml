@@ -250,9 +250,10 @@
     </state>
     <state x="600" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616644565480" />
     <state x="450" y="234" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1616959116219" />
-    <state x="369" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1615521499062">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="369" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1618284159397">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="369" y="269" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1615521499062" />
+    <state x="369" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1618284159397" />
   </component>
 </project>
