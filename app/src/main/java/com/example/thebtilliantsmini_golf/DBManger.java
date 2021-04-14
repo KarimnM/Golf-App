@@ -37,7 +37,11 @@ public class DBManger {
         return db.insert(DBHelper.TableName2, null, values) > -1;
     }
 
+    public void deleteplayer(int id){//this function deletes player from database
+        db.delete(DBHelper.TableName,DBHelper.C1+"="+id,null);
+        db.delete(DBHelper.TableName2,DBHelper.C3+"="+id,null);
 
+    }
 
 
 
