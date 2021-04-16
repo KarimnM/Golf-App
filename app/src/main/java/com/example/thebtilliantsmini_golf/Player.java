@@ -1,6 +1,8 @@
 package com.example.thebtilliantsmini_golf;
 
-public class Player {
+import java.io.Serializable;
+
+public class Player implements Serializable {
     private String content;
     String Playername;
     String color;

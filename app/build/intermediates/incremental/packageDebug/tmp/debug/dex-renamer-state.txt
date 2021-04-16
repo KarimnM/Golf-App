@@ -1,7 +1,7 @@
-#Fri Apr 16 00:32:43 EDT 2021
-base.0=/Users/admin/Golf-App100/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+#Fri Apr 16 18:28:06 EDT 2021
+base.0=D\:\\Android Projects\\updating\\Golf-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/admin/Golf-App100/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+base.1=D\:\\Android Projects\\updating\\Golf-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

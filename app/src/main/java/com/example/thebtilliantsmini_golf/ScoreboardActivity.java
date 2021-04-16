@@ -6,6 +6,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+
 public class ScoreboardActivity extends AppCompatActivity {
 
 
@@ -24,24 +26,26 @@ public class ScoreboardActivity extends AppCompatActivity {
 
 
         Intent intent = getIntent();
-        String title1 = intent.getStringExtra(addPlayerActivity.EXTRA_TEXT1);
-        String player1 = intent.getStringExtra(addPlayerActivity.EXTRA_TEXT2);
-        String player2= intent.getStringExtra(addPlayerActivity.EXTRA_TEXT3);
+        ArrayList<Player> playerList = new ArrayList<Player>();
+        playerList = (ArrayList<Player>)getIntent().getSerializableExtra("PlayerList");
+//        String title1 = intent.getStringExtra(addPlayerActivity.EXTRA_TEXT1);
+//        String player1 = intent.getStringExtra(addPlayerActivity.EXTRA_TEXT2);
+//        String player2= intent.getStringExtra(addPlayerActivity.EXTRA_TEXT3);
 
         TextView gameTitle = findViewById(R.id.gameTitle1);
-        TextView Player1 = findViewById(R.id.Player1);
-        TextView Player2 = findViewById(R.id.Player2);
+        TextView Player1 = findViewById(R.id.textView13);
+        TextView Player2 = findViewById(R.id.textView14);
 
-        gameTitle.setText(title1);
-        Player1.setText(player1);
-        Player2.setText(player2);
+//        gameTitle.setText(title1);
+        Player1.setText(playerList.get(0).getPlayername());
+        Player2.setText(playerList.get(1).getPlayername());
 
 
 
 
 
         System.out.println("HELLO WORLD!");
-        System.out.println(title1);
+        //System.out.println(title1);
     }
 
 

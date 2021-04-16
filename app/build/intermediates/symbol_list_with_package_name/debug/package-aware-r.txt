@@ -2027,6 +2027,7 @@ id save_overlay_view
 id sawtooth
 id scale
 id score
+id score2
 id scoreboard
 id screen
 id scroll
@@ -2105,6 +2106,9 @@ id textTop
 id textView
 id textView10
 id textView11
+id textView12
+id textView13
+id textView14
 id textView2
 id textView3
 id textView4
@@ -2413,7 +2417,9 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string placeholder
 string play
+string player
 string player_1
 string player_2
 string saved_games

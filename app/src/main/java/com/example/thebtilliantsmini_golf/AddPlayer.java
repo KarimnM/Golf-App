@@ -109,6 +109,7 @@ public class AddPlayer extends AppCompatActivity {
                 // r.setLastUpdate(Calendar.getInstance().getTimeInMillis());
                 // DB.insertRecpiToDataBase(r);
                 Intent i = new Intent(getApplicationContext(), ScoreboardActivity.class);
+                i.putExtra("PlayerList", arrayList);
                 startActivity(i);
 
             }
