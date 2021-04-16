@@ -84,6 +84,8 @@
     <string name="total_score">Total Score</string>
     <string name="scoreboard">Scoreboard</string>
     <string name="default_score">0</string>
+    <string name="player">Player</string>
+    <string name="placeholder">Placeholder Name</string>
 
     <!--Navigation-->
     <string name="back">Back</string>
