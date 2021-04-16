@@ -51,6 +51,7 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array color
+array colorVal
 array number_of_holes
 array number_of_strokes
 attr actionBarDivider
@@ -972,6 +973,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1148,6 +1150,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1808,6 +1811,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id colorSpinner
 id confirm_button
 id container
 id content
@@ -2054,7 +2058,6 @@ id spacer
 id spinner
 id spinner2
 id spinner3
-id spinner4
 id spline
 id split_action_bar
 id spread

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#000000"
+    android:background="@color/white"
     android:layout_height="match_parent">
 
     <EditText
@@ -13,7 +13,7 @@
         android:layout_marginStart="18dp"
         android:ems="10"
         android:hint="Player Name"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/black"
         android:backgroundTint="@android:color/white"
         android:textColorHint="@android:color/darker_gray"
         android:fontFamily="@font/proxima_nova_regular"
@@ -44,7 +44,7 @@
         android:ems="10"
         android:hint="Game Name"
         android:fontFamily="@font/proxima_nova_regular"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/black"
         android:backgroundTint="@android:color/white"
         android:textColorHint="@android:color/darker_gray"
         android:inputType="textPersonName"
@@ -79,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@id/getRecipeName" />
 
     <Spinner
-        android:id="@+id/spinner4"
+        android:id="@+id/colorSpinner"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:entries="@array/color"

@@ -11,6 +11,17 @@
             <item>White</item>
 
         </string-array>
+        <string-array name="colorVal">
+            <item>#FF0000</item>
+            <item>#3F51B5</item>
+            <item>#FF5722</item>
+            <item>#FFEB3B</item>
+            <item>#000</item>
+            <item>#4CAF50</item>
+            <item>#673AB7</item>
+            <item>#fff</item>
+
+        </string-array>
     <!---Scorecard-->
 
     <string-array name="number_of_holes">

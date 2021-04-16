@@ -4,14 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AddPlayer extends AppCompatActivity {
     DBHelper mDatabaseHelp;
@@ -25,8 +29,8 @@ public class AddPlayer extends AppCompatActivity {
     ArrayAdapter<String> adapter;
     EditText getRecipeName;
     EditText getPlayerName;
-    DBManger DB;
-
+    DBManger     DB;
+    int  selectedColor=-1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,10 +43,34 @@ public class AddPlayer extends AppCompatActivity {
         DB = new DBManger(AddPlayer.this);
         IngredientsNames = new ArrayList<>();
         //    mDatabaseHelp = new DatabaseHelper()
+        Spinner colorSpinner=findViewById(R.id.colorSpinner);
+        String color []=getResources().getStringArray(R.array.color);
+        String colorVal []=getResources().getStringArray(R.array.colorVal);
+        final List<PlayerColor>colorList=new ArrayList<>();
+        for(int i=0; i<color.length;i++){
+            colorList.add(new PlayerColor(color[i],colorVal[i]));
+        }
 
 
         arrayList = new ArrayList<Player>();
         adapter = new ArrayAdapter<String>(AddPlayer.this, android.R.layout.simple_list_item_1, IngredientsNames);
+       ArrayAdapter spinnerAdapter = new ArrayAdapter<String>
+               (AddPlayer.this, android.R.layout.simple_list_item_1, color);
+
+       colorSpinner.setAdapter(spinnerAdapter);
+       colorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+           @Override
+           public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+               selectedColor=position;
+               Log.e("Color","name "+colorList.get(selectedColor).getColorName()
+                       +" val"+colorList.get(selectedColor).getColorValue());
+           }
+
+           @Override
+           public void onNothingSelected(AdapterView<?> parent) {
+
+           }
+       });
 
         addedItems.setAdapter(adapter);
         onBtnClick();
