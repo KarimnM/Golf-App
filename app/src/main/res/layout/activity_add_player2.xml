@@ -48,7 +48,7 @@
         android:backgroundTint="@android:color/white"
         android:textColorHint="@android:color/darker_gray"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/VV"
+        app:layout_constraintBottom_toTopOf="@+id/addPlayerRecycler"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -67,9 +67,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/addPlayerRecycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/getRecipeName"/>
     <ListView
-        android:id="@+id/VV"
+        android:visibility="gone"
+        android:id="@+id/VVTest"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="114dp"

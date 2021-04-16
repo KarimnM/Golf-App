@@ -76,6 +76,10 @@
         "source": "/Users/admin/Golf-App100/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/Users/admin/Golf-App100/app/build/intermediates/res/merged/debug/layout_row_player.xml.flat",
+        "source": "/Users/admin/Golf-App100/app/src/main/res/layout/row_player.xml"
+    },
+    {
         "merged": "/Users/admin/Golf-App100/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/admin/Golf-App100/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },

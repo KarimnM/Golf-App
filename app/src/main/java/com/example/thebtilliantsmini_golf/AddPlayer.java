@@ -1,10 +1,11 @@
 package com.example.thebtilliantsmini_golf;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,7 +16,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class AddPlayer extends AppCompatActivity {
     DBHelper mDatabaseHelp;
@@ -24,8 +24,10 @@ public class AddPlayer extends AppCompatActivity {
     Button Adding;
     Button save;
     ListView addedItems;
+    RecyclerView addedItemsRecycler;
     ArrayList<Player> arrayList;
     ArrayList<String> IngredientsNames;
+    PlayerAdapter addedPlayerAdapter;
     ArrayAdapter<String> adapter;
     EditText getRecipeName;
     EditText getPlayerName;
@@ -35,35 +37,31 @@ public class AddPlayer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_player2);
+
         getPlayerName = (EditText) findViewById(R.id.getPlayerName);
         getRecipeName = (EditText) findViewById(R.id.getRecipeName);
         Adding = (Button) findViewById(R.id.Add);
         save = (Button) findViewById(R.id.Save);
-        addedItems = (ListView) findViewById(R.id.VV);
+        addedItems = (ListView) findViewById(R.id.VVTest);
+        addedItemsRecycler =  findViewById(R.id.addPlayerRecycler);
         DB = new DBManger(AddPlayer.this);
         IngredientsNames = new ArrayList<>();
         //    mDatabaseHelp = new DatabaseHelper()
         Spinner colorSpinner=findViewById(R.id.colorSpinner);
-        String color []=getResources().getStringArray(R.array.color);
-        String colorVal []=getResources().getStringArray(R.array.colorVal);
-        final List<PlayerColor>colorList=new ArrayList<>();
-        for(int i=0; i<color.length;i++){
-            colorList.add(new PlayerColor(color[i],colorVal[i]));
-        }
+
 
 
         arrayList = new ArrayList<Player>();
         adapter = new ArrayAdapter<String>(AddPlayer.this, android.R.layout.simple_list_item_1, IngredientsNames);
        ArrayAdapter spinnerAdapter = new ArrayAdapter<String>
-               (AddPlayer.this, android.R.layout.simple_list_item_1, color);
+               (AddPlayer.this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.color));
 
        colorSpinner.setAdapter(spinnerAdapter);
        colorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
            @Override
            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                selectedColor=position;
-               Log.e("Color","name "+colorList.get(selectedColor).getColorName()
-                       +" val"+colorList.get(selectedColor).getColorValue());
+
            }
 
            @Override
@@ -71,7 +69,9 @@ public class AddPlayer extends AppCompatActivity {
 
            }
        });
-
+        addedItemsRecycler.setLayoutManager(new LinearLayoutManager(this));
+         addedPlayerAdapter=new PlayerAdapter(this);
+        addedItemsRecycler.setAdapter(addedPlayerAdapter);
         addedItems.setAdapter(adapter);
         onBtnClick();
     }
@@ -85,13 +85,16 @@ public class AddPlayer extends AppCompatActivity {
                     Toast.makeText(AddPlayer.this, "Maximum of 4 players", Toast.LENGTH_SHORT).show();
                 }else if(arrayList.size()<4) {
 
-                    Player I = new Player();
-                    String finaly = getPlayerName.getText().toString();
-                    I.setContent(finaly);
+                    Player player = new Player();
+                    String playerNameString = getPlayerName.getText().toString();
+                    player.setContent(playerNameString);
+                    player.setPlayername(playerNameString);
                     getPlayerName.setText("");
-                    arrayList.add(I);
-                    IngredientsNames.add(finaly);
+                    player.setColorListPosition(selectedColor);
+                    arrayList.add(player);
+                    IngredientsNames.add(playerNameString);
                     adapter.notifyDataSetChanged();
+                    addedPlayerAdapter.setPlayerList(arrayList);
                 }
             }
         });

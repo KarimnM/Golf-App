@@ -5,7 +5,15 @@ public class Player {
     String Playername;
     String color;
     int score;
+    int colorListPosition;
 
+    public int getColorListPosition() {
+        return colorListPosition;
+    }
+
+    public void setColorListPosition(int colorListPosition) {
+        this.colorListPosition = colorListPosition;
+    }
 
     public String getContent() {
         return content;
