@@ -1887,6 +1887,7 @@ id grouping
 id groups
 id guideline
 id guideline2
+id guideline3
 id header_title
 id helpButton
 id helpImageButton
@@ -2021,6 +2022,7 @@ id right_icon
 id right_side
 id rounded
 id rowBackground
+id rowStroks
 id row_index_key
 id save_non_transition_alpha
 id save_overlay_view
@@ -2133,6 +2135,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id totalScore
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -2287,6 +2290,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout row_player
+layout row_player_info
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
