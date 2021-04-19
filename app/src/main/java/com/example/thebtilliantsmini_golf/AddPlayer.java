@@ -26,7 +26,7 @@ public class AddPlayer extends AppCompatActivity {
     ListView addedItems;
     RecyclerView addedItemsRecycler;
     ArrayList<Player> arrayList;
-    ArrayList<String> IngredientsNames;
+    ArrayList<String> player;
     PlayerAdapter addedPlayerAdapter;
     ArrayAdapter<String> adapter;
     EditText getRecipeName;
@@ -45,32 +45,32 @@ public class AddPlayer extends AppCompatActivity {
         addedItems = (ListView) findViewById(R.id.VVTest);
         addedItemsRecycler =  findViewById(R.id.addPlayerRecycler);
         DB = new DBManger(AddPlayer.this);
-        IngredientsNames = new ArrayList<>();
+        player = new ArrayList<>();
         //    mDatabaseHelp = new DatabaseHelper()
         Spinner colorSpinner=findViewById(R.id.colorSpinner);
 
 
 
         arrayList = new ArrayList<Player>();
-        adapter = new ArrayAdapter<String>(AddPlayer.this, android.R.layout.simple_list_item_1, IngredientsNames);
-       ArrayAdapter spinnerAdapter = new ArrayAdapter<String>
-               (AddPlayer.this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.color));
+        adapter = new ArrayAdapter<String>(AddPlayer.this, android.R.layout.simple_list_item_1, player);
+        ArrayAdapter spinnerAdapter = new ArrayAdapter<String>
+                (AddPlayer.this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.color));
 
-       colorSpinner.setAdapter(spinnerAdapter);
-       colorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-           @Override
-           public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-               selectedColor=position;
+        colorSpinner.setAdapter(spinnerAdapter);
+        colorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                selectedColor=position;
 
-           }
+            }
 
-           @Override
-           public void onNothingSelected(AdapterView<?> parent) {
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
 
-           }
-       });
+            }
+        });
         addedItemsRecycler.setLayoutManager(new LinearLayoutManager(this));
-         addedPlayerAdapter=new PlayerAdapter(this);
+        addedPlayerAdapter=new PlayerAdapter(this);
         addedItemsRecycler.setAdapter(addedPlayerAdapter);
         addedItems.setAdapter(adapter);
         onBtnClick();
@@ -92,7 +92,7 @@ public class AddPlayer extends AppCompatActivity {
                     getPlayerName.setText("");
                     player.setColorListPosition(selectedColor);
                     arrayList.add(player);
-                    IngredientsNames.add(playerNameString);
+                    AddPlayer.this.player.add(playerNameString);
                     adapter.notifyDataSetChanged();
                     addedPlayerAdapter.setPlayerList(arrayList);
                 }
