@@ -17,8 +17,8 @@ public class PlayerAdapter extends RecyclerView.Adapter<ItemHolder> {
      List<PlayerColor>colorList=new ArrayList<>();
 
     PlayerAdapter(Context ctx){
-        String[] color =ctx.getResources().getStringArray(R.array.color);
-        String[] colorVal =ctx.getResources().getStringArray(R.array.colorVal);
+        String[] color =ctx.getResources().getStringArray(R.array.color);// stores the colors i made in the spinner that are looked in the file called "strings"
+        String[] colorVal =ctx.getResources().getStringArray(R.array.colorVal);// give the strings in the array color it's value using hexadecimal. forexample, black = #fff
 
         for(int i=0; i<color.length;i++){
             colorList.add(new PlayerColor(color[i],colorVal[i]));

@@ -11,8 +11,8 @@ public class Player implements Serializable {
     int colorListPosition;
 
     public Player() {
-        for(int i=1; i<10;i++){
-            scoreValues.put(i+"",-1);
+        for(int i=1; i<10;i++){ // this loops over the number of strokes to define which position in the spinner. for example 1 is defined as string but this loop makes it an integer
+            scoreValues.put(i+"",-1);//-1 means the user didnt choose any strokes yet.
         }
     }
 

@@ -28,12 +28,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981da6dc-5e94-4e44-a485-4fcf97054864" name="Default Changelist" comment="" />
+    <list default="true" id="981da6dc-5e94-4e44-a485-4fcf97054864" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/thebtilliantsmini_golf/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/thebtilliantsmini_golf/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/thebtilliantsmini_golf/PlayerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/thebtilliantsmini_golf/PlayerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -342,10 +351,10 @@
     <state x="600" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616644565480" />
     <state x="450" y="232" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1618544670784" />
     <state x="450" y="234" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1616959116219" />
-    <state x="369" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1618542500342">
+    <state x="369" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1618800954658">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="369" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1618542500342" />
+    <state x="369" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1618800954658" />
     <state x="369" y="269" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1615521499062" />
     <state x="369" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1618284159397" />
   </component>
