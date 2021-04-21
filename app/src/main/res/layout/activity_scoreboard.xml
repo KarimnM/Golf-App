@@ -117,17 +117,4 @@
         app:layout_constraintTop_toBottomOf="@+id/scoreboard" />
 
 
-    <TextView
-        android:id="@+id/back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/back"
-        android:textColor="#FFFFFF"
-        android:fontFamily="@font/proxima_nova_regular"
-        app:layout_constraintEnd_toStartOf="@+id/scoreboard"
-        app:layout_constraintHorizontal_bias="0.531"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
