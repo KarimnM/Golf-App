@@ -94,8 +94,7 @@
         android:entries="@array/color"
         android:fontFamily="@font/proxima_nova_regular"
         app:layout_constraintTop_toBottomOf="@id/getPlayerName"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="162dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="87dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
