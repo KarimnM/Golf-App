@@ -6,48 +6,50 @@
     android:background="@color/white"
     android:layout_height="match_parent">
 
+
     <EditText
         android:id="@+id/getPlayerName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:ems="10"
-        android:hint="Player Name"
-        android:textColor="@color/black"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@android:color/white"
-        android:textColorHint="@android:color/darker_gray"
+        android:ems="10"
         android:fontFamily="@font/proxima_nova_regular"
+        android:hint="Player Name"
         android:inputType="textPersonName"
-        app:layout_constraintBaseline_toBaselineOf="@+id/Add"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getRecipeName" />
 
     <Button
         android:id="@+id/Add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="14dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/proxima_nova_regular"
         android:text="Add"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@id/getPlayerName"
-        app:layout_constraintTop_toBottomOf="@id/getRecipeName" />
+        app:layout_constraintStart_toEndOf="@+id/colorSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/getPlayerName" />
 
     <EditText
         android:id="@+id/getRecipeName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="156dp"
-        android:ems="10"
-        android:hint="Game Name"
-        android:fontFamily="@font/proxima_nova_regular"
-        android:textColor="@color/black"
         android:backgroundTint="@android:color/white"
-        android:textColorHint="@android:color/darker_gray"
+        android:ems="10"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:hint="Game Name"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
         app:layout_constraintBottom_toTopOf="@+id/addPlayerRecycler"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -67,6 +69,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/addPlayerRecycler"
         android:layout_width="0dp"
@@ -74,8 +77,10 @@
         android:layout_marginBottom="114dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/getRecipeName"/>
+        app:layout_constraintTop_toBottomOf="@id/getRecipeName" />
+
     <ListView
         android:visibility="gone"
         android:id="@+id/VVTest"
@@ -89,12 +94,12 @@
 
     <Spinner
         android:id="@+id/colorSpinner"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="187dp"
+        android:layout_height="33dp"
         android:entries="@array/color"
         android:fontFamily="@font/proxima_nova_regular"
-        app:layout_constraintTop_toBottomOf="@id/getPlayerName"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="87dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="133dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

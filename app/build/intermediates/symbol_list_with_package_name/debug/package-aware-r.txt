@@ -1703,8 +1703,6 @@ id HPimageBt3
 id HPimageBt4
 id META
 id NO_DEBUG
-id Player1
-id Player2
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1781,7 +1779,6 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1893,6 +1890,7 @@ id helpButton
 id helpImageButton
 id helpImageButton3
 id hideable
+id holeSpinner
 id home
 id homeAsUp
 id honorRequest
@@ -2005,6 +2003,7 @@ id pin
 id player1
 id player2
 id playerColorName
+id playerInfo
 id playerName
 id position
 id postLayout
@@ -2029,7 +2028,6 @@ id save_overlay_view
 id sawtooth
 id scale
 id score
-id score2
 id scoreboard
 id screen
 id scroll
@@ -2063,9 +2061,6 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
-id spinner
-id spinner2
-id spinner3
 id spline
 id split_action_bar
 id spread
@@ -2106,11 +2101,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView10
-id textView11
 id textView12
-id textView13
-id textView14
 id textView2
 id textView3
 id textView4
@@ -2118,7 +2109,6 @@ id textView5
 id textView6
 id textView7
 id textView8
-id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
