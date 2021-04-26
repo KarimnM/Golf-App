@@ -1,5 +1,7 @@
 package com.example.thebtilliantsmini_golf;
 
+//Added some gradle scripts for the compability
+
 import android.content.Intent;
 import android.icu.text.StringPrepParseException;
 import android.os.Bundle;
