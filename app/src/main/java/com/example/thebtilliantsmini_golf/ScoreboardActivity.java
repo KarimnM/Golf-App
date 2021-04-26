@@ -30,7 +30,7 @@ public class ScoreboardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scoreboard);
         final PlayerInfoAdapter adapter=new PlayerInfoAdapter(this) ;
         //Created back button
-        TextView back = findViewById(R.id.back);
+       //TextView back = findViewById(R.id.back);
         Spinner holeSpinner=findViewById(R.id.holeSpinner);
         RecyclerView playerRecycler=findViewById(R.id.playerInfo);
         playerRecycler.setLayoutManager(new LinearLayoutManager(this));

@@ -1,118 +1,118 @@
 [
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\font_proxima_nova_bold.otf.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\font\\proxima_nova_bold.otf"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/activity_splash.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corners.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\drawable\\rounded_corners.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_activity_savedgame.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/activity_savedgame.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/font_proxima_nova_italic.otf.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/font/proxima_nova_italic.otf"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_savedgame.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\activity_savedgame.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_activity_add_player.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/activity_add_player.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_player.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\activity_add_player.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/drawable-v24_rect_round.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/drawable-v24/rect_round.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\font_proxima_nova_italic.otf.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\font\\proxima_nova_italic.otf"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_activity_add_player2.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/activity_add_player2.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_player.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\row_player.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_row_player_info.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/row_player_info.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rect_round.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\drawable-v24\\rect_round.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_player2.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\activity_add_player2.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_activity_newgame.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/activity_newgame.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scoreboard.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\activity_scoreboard.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/font_proxima_nova_bold.otf.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/font/proxima_nova_bold.otf"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\font_proxima_nova_regular.otf.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\font\\proxima_nova_regular.otf"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_activity_scoreboard.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/activity_scoreboard.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_newgame.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\activity_newgame.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_activity_help.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/activity_help.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\activity_help.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_player_info.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\row_player_info.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/font_proxima_nova_regular.otf.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/font/proxima_nova_regular.otf"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/drawable_rounded_corners.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/drawable/rounded_corners.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Documents\\School\\VCU\\2021Spring\\CMSC475\\Golf-App-Master\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/admin/Golf-App88/app/build/intermediates/res/merged/debug/layout_row_player.xml.flat",
+        "source": "/Users/admin/Golf-App88/app/src/main/res/layout/row_player.xml"
     }
 ]
