@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">The Brilliants\' Mini_GOLF</string>
     <string-array name="color">
+        <item>Ball Color</item>
         <item>Red</item>
         <item>Blue</item>
         <item>Orange</item>
@@ -12,6 +13,7 @@
 
     </string-array>
     <string-array name="colorVal">
+        <item>#ffffff</item>
         <item>#FF0000</item>
         <item>#3F51B5</item>
         <item>#FF5722</item>
