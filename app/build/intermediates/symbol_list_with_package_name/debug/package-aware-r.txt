@@ -2210,6 +2210,7 @@ layout abc_tooltip
 layout activity_add_player
 layout activity_add_player2
 layout activity_help
+layout activity_listing_scores
 layout activity_main
 layout activity_newgame
 layout activity_savedgame

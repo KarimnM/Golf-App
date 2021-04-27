@@ -31,7 +31,7 @@ public class AddPlayer extends AppCompatActivity {
     ArrayAdapter<String> adapter;
     EditText getRecipeName;
     EditText getPlayerName;
-    DBManger     DB;
+    DBManger DB;
     int  selectedColor=-1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

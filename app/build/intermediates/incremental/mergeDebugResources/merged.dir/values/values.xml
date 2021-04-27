@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <string-array name="color">
-            <item>Red</item>
-            <item>Blue</item>
-            <item>Orange</item>
-            <item>Yellow</item>
-            <item>Black</item>
-            <item>Green</item>
-            <item>Purple</item>
-            <item>White</item>
+        <item>Ball Color</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Black</item>
+        <item>Green</item>
+        <item>Purple</item>
+        <item>White</item>
 
-        </string-array>
+    </string-array>
     <string-array name="colorVal">
-            <item>#FF0000</item>
-            <item>#3F51B5</item>
-            <item>#FF5722</item>
-            <item>#FFEB3B</item>
-            <item>#000000</item>
-            <item>#4CAF50</item>
-            <item>#673AB7</item>
-            <item>#ffffff</item>
+        <item>#ffffff</item>
+        <item>#FF0000</item>
+        <item>#3F51B5</item>
+        <item>#FF5722</item>
+        <item>#FFEB3B</item>
+        <item>#000000</item>
+        <item>#4CAF50</item>
+        <item>#673AB7</item>
+        <item>#ffffff</item>
 
-        </string-array>
+    </string-array>
     <string-array name="number_of_holes">
         <item>Hole number</item>
         <item>1</item>
