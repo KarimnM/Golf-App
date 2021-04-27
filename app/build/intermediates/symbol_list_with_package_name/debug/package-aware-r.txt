@@ -1864,6 +1864,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id finish_game
 id fitToContents
 id fixed
 id flip

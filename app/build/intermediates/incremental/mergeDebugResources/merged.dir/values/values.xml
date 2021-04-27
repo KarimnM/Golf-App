@@ -1108,12 +1108,15 @@
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="full_scorecard">Full Scorecard</string>
     <string name="help">Help</string>
-    <string name="help_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</string>
+    <string name="help_text"> Lets explain how all the buttons work!<br/>
+        New Game: This is button will direct you to a page where you create a new game.<br/>
+        Load Game: Load previous saved games and start were you left off!<br/><br/>
+
+        <center> How to create a game </center>
+        <br/>
+
+        Type in the name of the players and change your colors, afterwards click Lets Play!
+            </string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>

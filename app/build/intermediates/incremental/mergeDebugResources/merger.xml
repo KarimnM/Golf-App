@@ -6427,12 +6427,15 @@
         <item>8</item>
         <item>9</item>
         <item>10</item>
-    </string-array><string name="welcome_message">Welcome to Minigolf Scoreboard</string><string name="copyright">Copyright © 2021 theBrilliants’ Inc, All rights reserved.</string><string name="new_game">New Game</string><string name="load_saved_games">Load Saved Games</string><string name="help">Help</string><string name="help_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</string><string name="play">Let\'s Play!</string><string name="enter_game_title_here">Enter game title here</string><string name="add_players">Add Players</string><string name="player_1">Player 1</string><string name="player_2">Player 2</string><string name="saved_games">Saved Games</string><string name="strokes">Strokes</string><string name="current_hole">Current Hole</string><string name="full_scorecard">Full Scorecard</string><string name="total_score">Total Score</string><string name="scoreboard">Scoreboard</string><string name="default_score">0</string><string name="player">Player</string><string name="placeholder">Placeholder Name</string><string name="back">Back</string></file><file path="C:\Users\18047\StudioProjects\Golf-App\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </string-array><string name="welcome_message">Welcome to Minigolf Scoreboard</string><string name="copyright">Copyright © 2021 theBrilliants’ Inc, All rights reserved.</string><string name="new_game">New Game</string><string name="load_saved_games">Load Saved Games</string><string name="help">Help</string><string name="help_text"> Lets explain how all the buttons work!<br/>
+        New Game: This is button will direct you to a page where you create a new game.<br/>
+        Load Game: Load previous saved games and start were you left off!<br/><br/>
+
+        <center> How to create a game </center>
+        <br/>
+
+        Type in the name of the players and change your colors, afterwards click Lets Play!
+            </string><string name="play">Let\'s Play!</string><string name="enter_game_title_here">Enter game title here</string><string name="add_players">Add Players</string><string name="player_1">Player 1</string><string name="player_2">Player 2</string><string name="saved_games">Saved Games</string><string name="strokes">Strokes</string><string name="current_hole">Current Hole</string><string name="full_scorecard">Full Scorecard</string><string name="total_score">Total Score</string><string name="scoreboard">Scoreboard</string><string name="default_score">0</string><string name="player">Player</string><string name="placeholder">Placeholder Name</string><string name="back">Back</string></file><file path="C:\Users\18047\StudioProjects\Golf-App\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
