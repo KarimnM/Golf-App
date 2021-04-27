@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 
 public class Splash extends AppCompatActivity {
@@ -13,20 +14,14 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-
-        new Thread(){
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                super.run();
-                try{
-                    sleep(3000);
-                    Intent i = new Intent(Splash.this, MainActivity.class);
-                    startActivity(i);
-                }catch (Exception e){
-                    Log.e("Splash error", e.getMessage());
-                }
+                Intent intent = new Intent( Splash.this, MainActivity.class);
+                startActivity(intent);
+                finish();
             }
-        }.start();
+        }, 3000);
 
 
 
