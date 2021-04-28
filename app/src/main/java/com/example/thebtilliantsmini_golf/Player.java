@@ -51,6 +51,7 @@ public class Player implements Serializable {
     }
 
     public String getColor() {
+        //Possibly change this line to fix the "Ball Color" bug
         return color;
     }
 
