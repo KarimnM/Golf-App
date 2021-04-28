@@ -74,5 +74,15 @@ public class ScoreboardActivity extends AppCompatActivity {
     }
 
 
+    //When the user presses the back button, it goes to the main screen.
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        startActivity(new Intent(ScoreboardActivity.this, MainActivity.class));
+        finish();
+
+    }
+
 
 }
