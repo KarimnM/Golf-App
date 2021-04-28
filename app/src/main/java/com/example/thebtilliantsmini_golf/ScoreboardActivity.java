@@ -2,14 +2,18 @@ package com.example.thebtilliantsmini_golf;
 
 //Added some gradle scripts for the compability
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.icu.text.StringPrepParseException;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -35,8 +39,16 @@ public class ScoreboardActivity extends AppCompatActivity {
        //TextView back = findViewById(R.id.back);
         Spinner holeSpinner=findViewById(R.id.holeSpinner);
         RecyclerView playerRecycler=findViewById(R.id.playerInfo);
+        Button finish_game = findViewById(R.id.finish_game);
         playerRecycler.setLayoutManager(new LinearLayoutManager(this));
         playerRecycler.setAdapter(adapter);
+
+        finish_game.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDialog();
+            }
+        });
 
 
         ArrayAdapter spinnerAdapter = new ArrayAdapter<String>
@@ -82,6 +94,32 @@ public class ScoreboardActivity extends AppCompatActivity {
         startActivity(new Intent(ScoreboardActivity.this, MainActivity.class));
         finish();
 
+    }
+
+    void openDialog(){
+
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // Setting Alert Dialog Title
+        alertDialogBuilder.setTitle("Confirm end of the game? ");
+        // Setting Alert Dialog Message
+        alertDialogBuilder.setMessage("Are you sure?");
+        alertDialogBuilder.setCancelable(false);
+        alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface arg0, int arg1) {
+                finish();
+            }
+        });
+
+        alertDialogBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(ScoreboardActivity.this,"You clicked over No",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
     }
 
 
