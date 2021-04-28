@@ -33,6 +33,11 @@ public class NewGameActivity extends AppCompatActivity {
 
     }
 
+    //Creating function for design
+    void createDesign(){
+
+    }
+
     void letsPlay(){
         Intent intent = new Intent(this, ScoreboardActivity.class);
         startActivity(intent);
