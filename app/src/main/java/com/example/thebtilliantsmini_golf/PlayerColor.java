@@ -13,6 +13,8 @@ public class PlayerColor {
     }
 
     public String getColorName() {
+        if (ColorName.equals("Ball Color"))
+            ColorName = "White";
         return ColorName;
     }
 
