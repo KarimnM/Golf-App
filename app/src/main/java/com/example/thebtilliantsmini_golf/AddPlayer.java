@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -73,10 +75,12 @@ public class AddPlayer extends AppCompatActivity {
         addedItemsRecycler.setAdapter(addedPlayerAdapter);
         addedItems.setAdapter(adapter);
         onBtnClick();
+
     }
 
     public void onBtnClick() {
         Adding.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 //Ingredients
@@ -95,7 +99,11 @@ public class AddPlayer extends AppCompatActivity {
                     adapter.notifyDataSetChanged();
                     addedPlayerAdapter.setPlayerList(arrayList);
                 }
+
+                InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                mgr.hideSoftInputFromWindow(getPlayerName.getWindowToken(),0);
             }
+
         });
 
         save.setOnClickListener(new View.OnClickListener() {
@@ -116,5 +124,4 @@ public class AddPlayer extends AppCompatActivity {
 
 
     }
-
 }
