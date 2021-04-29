@@ -39,7 +39,6 @@ public class AddPlayer extends AppCompatActivity {
         setContentView(R.layout.activity_add_player2);
 
         getPlayerName = (EditText) findViewById(R.id.getPlayerName);
-        getRecipeName = (EditText) findViewById(R.id.getRecipeName);
         Adding = (Button) findViewById(R.id.Add);
         save = (Button) findViewById(R.id.Save);
         addedItems = (ListView) findViewById(R.id.VVTest);

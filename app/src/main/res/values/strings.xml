@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">The Brilliants\' Mini_GOLF</string>
+    <string name="app_name">BrilliantGolf</string>
     <string-array name="color">
         <item>Ball Color</item>
         <item>Red</item>

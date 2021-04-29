@@ -1651,6 +1651,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icon
+drawable logo
+drawable logocropped
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1878,7 +1881,6 @@ id gameTitle
 id gameTitle1
 id gameTitleEdit
 id getPlayerName
-id getRecipeName
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1905,7 +1907,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView2
 id info
+id instructions
 id invisible
 id inward
 id italic
@@ -2114,7 +2119,6 @@ id textView5
 id textView6
 id textView7
 id textView8
-id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2360,8 +2364,10 @@ string help
 string help_text
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string instructions_new_game
 string item_view_role_description
 string load_saved_games
+string logo
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
