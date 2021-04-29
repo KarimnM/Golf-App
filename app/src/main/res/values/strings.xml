@@ -61,15 +61,10 @@
 
     <!--Help Page-->
     <string name="help">Help</string>
-    <string name="help_text"> Lets explain how all the buttons work!<br/>
-        New Game: This is button will direct you to a page where you create a new game.<br/>
-        Load Game: Load previous saved games and start were you left off!<br/><br/>
-
-        <center> How to create a game </center>
-        <br/>
-
-        Type in the name of the players and change your colors, afterwards click Lets Play!
-            </string>
+    <string name="help_text">
+        Lets explain how all the buttons work!\n\nNew Game: This is button will direct you to a page where you create a new game.\nLoad Game: Load previous saved games and start were you left off!\n\n
+     <b> How to create a game:</b>\n
+        Type in the name of the players and change your colors, afterwards click Lets Play! </string>
 
 
     <!--New Game Page-->
