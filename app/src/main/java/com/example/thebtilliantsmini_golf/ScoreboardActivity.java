@@ -29,7 +29,6 @@ public class ScoreboardActivity extends AppCompatActivity {
 //    int hole1=Integer.parseInt(hole.getText().toString());
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,12 +76,6 @@ public class ScoreboardActivity extends AppCompatActivity {
             adapter.setPlayerList(playerList);
         }
 
-
-
-
-
-
-        System.out.println("HELLO WORLD!");
     }
 
 
@@ -121,6 +114,4 @@ public class ScoreboardActivity extends AppCompatActivity {
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
     }
-
-
 }

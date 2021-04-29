@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     void SavedGamesActivity(){
-        Intent intent = new Intent(this, SavedGameActivity.class);
+        Intent intent = new Intent(this, ScoreboardActivity.class);
         startActivity(intent);
     }
     void helpActivity(){
