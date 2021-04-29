@@ -54,10 +54,10 @@
     </string-array>
 
     <!--Main Page-->
-    <string name="welcome_message">Welcome to Brilliant Golf Scoreboard</string>
+    <string name="welcome_message">Welcome to BrilliantGolf</string>
     <string name="copyright">Copyright © 2021 theBrilliants’ Inc, All rights reserved.</string>
     <string name="new_game">New Game</string>
-    <string name="load_saved_games">Resume Games</string>
+    <string name="load_saved_games">Resume Game</string>
 
     <!--Help Page-->
     <string name="help">Help</string>
@@ -75,6 +75,7 @@
     <!--New Game Page-->
     <string name="play">Let\'s Play!</string>
     <string name="enter_game_title_here">Enter game title here</string>
+    <string name="instructions_new_game">Enter player names and ball colors. Maximum 4 players.</string>
     <string name="add_players">Add Players</string>
     <string name="player_1">Player 1</string>
     <string name="player_2">Player 2</string>
@@ -94,5 +95,6 @@
 
     <!--Navigation-->
     <string name="back">Back</string>
+    <string name="logo">logo</string>
 
 </resources>

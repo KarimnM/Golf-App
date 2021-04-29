@@ -9,67 +9,70 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="387dp"
-        android:layout_height="178dp"
+        android:layout_width="250dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="30dp"
         android:clickable="false"
-        android:text="@string/welcome_message"
-        android:textColor="#0fb861"
         android:fontFamily="@font/proxima_nova_bold"
+        android:text="@string/welcome_message"
         android:textAlignment="center"
+        android:textColor="#0fb861"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098" />
-
-    <Button
-        android:id="@+id/newGameButton"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
-        android:text="@string/new_game"
-        android:background="@drawable/rounded_corners"
-        android:fontFamily="@font/proxima_nova_regular"
-        android:textSize="24sp"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.221" />
-
-    <Button
-        android:id="@+id/loadSGButton"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
-        android:background="@drawable/rounded_corners"
-        android:textSize="24sp"
-        android:text="@string/load_saved_games"
-        android:fontFamily="@font/proxima_nova_regular"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.475" />
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/helpButton"
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:background="@drawable/rounded_corners"
-        android:textSize="24sp"
-        android:text="@string/help"
         android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/help"
         android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.723" />
+        app:layout_constraintTop_toBottomOf="@+id/loadSGButton"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/new_game"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/loadSGButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/load_saved_games"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newGameButton"
+        app:layout_constraintVertical_bias="0.1" />
 
     <TextView
         android:id="@+id/textView2"
@@ -84,5 +87,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.977" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="229dp"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
