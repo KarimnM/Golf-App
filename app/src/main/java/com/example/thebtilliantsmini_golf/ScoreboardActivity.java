@@ -100,6 +100,7 @@ public class ScoreboardActivity extends AppCompatActivity {
         alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface arg0, int arg1) {
+                goMainScreen();
                 finish();
             }
         });
@@ -114,4 +115,10 @@ public class ScoreboardActivity extends AppCompatActivity {
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
     }
+
+    void goMainScreen(){
+        Intent intent = new Intent(ScoreboardActivity.this, MainActivity.class);
+        startActivity(intent);
+    }
+
 }

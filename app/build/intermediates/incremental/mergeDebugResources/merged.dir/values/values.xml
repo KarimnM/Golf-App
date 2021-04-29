@@ -1120,7 +1120,7 @@
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
-    <string name="load_saved_games">Load Saved Games</string>
+    <string name="load_saved_games">Resume Games</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
     <string description="Description for the toggle to choose between AM and PM [CHAR_LIMIT=NONE] " name="material_clock_toggle_content_description">Select AM or PM</string>
     <string description="Description for button to switch to select the hour [CHAR_LIMIT=NONE]" name="material_hour_selection">Select hour</string>
@@ -1188,7 +1188,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="strokes">Strokes</string>
     <string name="total_score">Total Score</string>
-    <string name="welcome_message">Welcome to Minigolf Scoreboard</string>
+    <string name="welcome_message">Welcome to Brilliant Golf Scoreboard</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="AndroidThemeColorAccentYellow" ns2:ignore="NewApi">
