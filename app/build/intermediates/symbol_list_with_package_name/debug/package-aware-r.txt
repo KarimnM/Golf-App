@@ -1701,7 +1701,6 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id HPimageBt
-id HPimageBt2
 id HPimageBt3
 id HPimageBt4
 id META
@@ -1894,7 +1893,6 @@ id guideline2
 id guideline3
 id header_title
 id helpButton
-id helpImageButton
 id helpImageButton3
 id hideable
 id holeSpinner
@@ -2021,8 +2019,6 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
-id recipeDate
-id recipeName
 id rectangles
 id reverseSawtooth
 id right
@@ -2115,7 +2111,6 @@ id textView12
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8
@@ -2223,7 +2218,6 @@ layout activity_help
 layout activity_listing_scores
 layout activity_main
 layout activity_newgame
-layout activity_savedgame
 layout activity_scoreboard
 layout activity_splash
 layout custom_dialog

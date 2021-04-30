@@ -40,10 +40,6 @@
         "source": "C:\\Users\\SANIDHYA\\AndroidStudioProjects\\Golf-App15\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\SANIDHYA\\AndroidStudioProjects\\Golf-App15\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_savedgame.xml.flat",
-        "source": "C:\\Users\\SANIDHYA\\AndroidStudioProjects\\Golf-App15\\app\\src\\main\\res\\layout\\activity_savedgame.xml"
-    },
-    {
         "merged": "C:\\Users\\SANIDHYA\\AndroidStudioProjects\\Golf-App15\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_newgame.xml.flat",
         "source": "C:\\Users\\SANIDHYA\\AndroidStudioProjects\\Golf-App15\\app\\src\\main\\res\\layout\\activity_newgame.xml"
     },

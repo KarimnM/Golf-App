@@ -51,6 +51,3 @@ com/example/thebtilliantsmini_golf/NewGameActivity.java
  com.example.thebtilliantsmini_golf.NewGameActivity
  com.example.thebtilliantsmini_golf.NewGameActivity$1
  com.example.thebtilliantsmini_golf.NewGameActivity$2
-com/example/thebtilliantsmini_golf/SavedGameActivity.java
- com.example.thebtilliantsmini_golf.SavedGameActivity
- com.example.thebtilliantsmini_golf.SavedGameActivity$1

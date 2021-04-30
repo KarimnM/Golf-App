@@ -65,9 +65,9 @@ public class MainActivity extends AppCompatActivity {
      */
     void noGameDialog(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("No on-going game! Please go to NEW GAME");
+        builder.setTitle("No current games! Go to NEW GAME");
 
-        //Button
+        //Button specifications
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

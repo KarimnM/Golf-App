@@ -52,8 +52,8 @@
 
     <Spinner
         android:id="@+id/holeSpinner"
-        android:layout_width="140dp"
-        android:layout_height="30dp"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
         android:layout_marginTop="56dp"
         android:entries="@array/number_of_holes"
         android:scrollbarSize="30sp"
