@@ -1,7 +1,9 @@
 package com.example.thebtilliantsmini_golf;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button newgame = findViewById(R.id.newGameButton);
-        Button loadgame = findViewById(R.id.loadSGButton);
         Button help = findViewById(R.id.helpButton);
+        Button resumeGame = findViewById(R.id.loadSGButton);
 
 
         newgame.setOnClickListener(new View.OnClickListener() {
@@ -24,12 +26,25 @@ public class MainActivity extends AppCompatActivity {
                 addPlayerActivity();
             }
         });
-        loadgame.setOnClickListener(new View.OnClickListener() {
+
+
+        resumeGame.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                SavedGamesActivity();
+            public void onClick(View view) {
+
+                //IF
+
+                /*If there is currently a game being played, the user will be taken the resumed game
+                Otherwise it will display a pop-up message showing that there is no currently
+                on-going game
+                 */
+                noGameDialog();
+
+                //ELSE
             }
         });
+
+
         help.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,10 +59,38 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    void SavedGamesActivity(){
-        Intent intent = new Intent(this, ScoreboardActivity.class);
+
+    /*
+        Method to show the user the message if there is no current ongoing game.
+     */
+    void noGameDialog(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("No on-going game! Please go to NEW GAME");
+
+        //Button
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                sameScreen();
+            }
+        });
+
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+    }
+
+
+
+    /*
+        Come back to the main screen
+     */
+    void sameScreen(){
+        Intent intent = new Intent(MainActivity.this, MainActivity.class);
         startActivity(intent);
     }
+
+
+
     void helpActivity(){
         Intent intent = new Intent(this, HelpActivity.class);
         startActivity(intent);

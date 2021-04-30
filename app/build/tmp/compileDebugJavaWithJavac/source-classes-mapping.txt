@@ -1,10 +1,12 @@
 com/example/thebtilliantsmini_golf/BuildConfig.java
  com.example.thebtilliantsmini_golf.BuildConfig
-com/example/thebtilliantsmini_golf/DBManger.java
- com.example.thebtilliantsmini_golf.DBManger
-com/example/thebtilliantsmini_golf/Splash.java
- com.example.thebtilliantsmini_golf.Splash
- com.example.thebtilliantsmini_golf.Splash$1
+com/example/thebtilliantsmini_golf/AddPlayer.java
+ com.example.thebtilliantsmini_golf.AddPlayer
+ com.example.thebtilliantsmini_golf.AddPlayer$1
+ com.example.thebtilliantsmini_golf.AddPlayer$2
+ com.example.thebtilliantsmini_golf.AddPlayer$3
+com/example/thebtilliantsmini_golf/DBHelper.java
+ com.example.thebtilliantsmini_golf.DBHelper
 com/example/thebtilliantsmini_golf/PlayerColor.java
  com.example.thebtilliantsmini_golf.PlayerColor
 com/example/thebtilliantsmini_golf/ItemHolder.java
@@ -13,9 +15,8 @@ com/example/thebtilliantsmini_golf/Player.java
  com.example.thebtilliantsmini_golf.Player
 com/example/thebtilliantsmini_golf/PlayerAdapter.java
  com.example.thebtilliantsmini_golf.PlayerAdapter
-com/example/thebtilliantsmini_golf/HelpActivity.java
- com.example.thebtilliantsmini_golf.HelpActivity
- com.example.thebtilliantsmini_golf.HelpActivity$1
+com/example/thebtilliantsmini_golf/DBManger.java
+ com.example.thebtilliantsmini_golf.DBManger
 com/example/thebtilliantsmini_golf/SelectedHoleLis.java
  com.example.thebtilliantsmini_golf.SelectedHoleLis
 com/example/thebtilliantsmini_golf/listingScores.java
@@ -24,14 +25,24 @@ com/example/thebtilliantsmini_golf/PlayerInfoAdapter.java
  com.example.thebtilliantsmini_golf.PlayerInfoAdapter
  com.example.thebtilliantsmini_golf.PlayerInfoAdapter$1
  com.example.thebtilliantsmini_golf.PlayerInfoAdapter$ItemHolder
+com/example/thebtilliantsmini_golf/MainActivity.java
+ com.example.thebtilliantsmini_golf.MainActivity
+ com.example.thebtilliantsmini_golf.MainActivity$1
+ com.example.thebtilliantsmini_golf.MainActivity$2
+ com.example.thebtilliantsmini_golf.MainActivity$3
+ com.example.thebtilliantsmini_golf.MainActivity$4
+com/example/thebtilliantsmini_golf/HelpActivity.java
+ com.example.thebtilliantsmini_golf.HelpActivity
+ com.example.thebtilliantsmini_golf.HelpActivity$1
+com/example/thebtilliantsmini_golf/Splash.java
+ com.example.thebtilliantsmini_golf.Splash
+ com.example.thebtilliantsmini_golf.Splash$1
 com/example/thebtilliantsmini_golf/ScoreboardActivity.java
  com.example.thebtilliantsmini_golf.ScoreboardActivity
  com.example.thebtilliantsmini_golf.ScoreboardActivity$1
  com.example.thebtilliantsmini_golf.ScoreboardActivity$2
  com.example.thebtilliantsmini_golf.ScoreboardActivity$3
  com.example.thebtilliantsmini_golf.ScoreboardActivity$4
-com/example/thebtilliantsmini_golf/DBHelper.java
- com.example.thebtilliantsmini_golf.DBHelper
 com/example/thebtilliantsmini_golf/addPlayerActivity.java
  com.example.thebtilliantsmini_golf.addPlayerActivity
  com.example.thebtilliantsmini_golf.addPlayerActivity$1
@@ -43,13 +54,3 @@ com/example/thebtilliantsmini_golf/NewGameActivity.java
 com/example/thebtilliantsmini_golf/SavedGameActivity.java
  com.example.thebtilliantsmini_golf.SavedGameActivity
  com.example.thebtilliantsmini_golf.SavedGameActivity$1
-com/example/thebtilliantsmini_golf/MainActivity.java
- com.example.thebtilliantsmini_golf.MainActivity
- com.example.thebtilliantsmini_golf.MainActivity$1
- com.example.thebtilliantsmini_golf.MainActivity$2
- com.example.thebtilliantsmini_golf.MainActivity$3
-com/example/thebtilliantsmini_golf/AddPlayer.java
- com.example.thebtilliantsmini_golf.AddPlayer
- com.example.thebtilliantsmini_golf.AddPlayer$1
- com.example.thebtilliantsmini_golf.AddPlayer$2
- com.example.thebtilliantsmini_golf.AddPlayer$3
