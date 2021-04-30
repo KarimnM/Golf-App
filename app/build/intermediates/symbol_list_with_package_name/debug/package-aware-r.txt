@@ -1986,6 +1986,7 @@ id multiply
 id navigation_header_container
 id never
 id newGameButton
+id next
 id noScroll
 id none
 id normal
@@ -2015,6 +2016,7 @@ id playerInfo
 id playerName
 id position
 id postLayout
+id previous
 id progress_circular
 id progress_horizontal
 id radio
@@ -2353,6 +2355,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string finish
 string full_scorecard
 string help
 string help_text
@@ -2413,6 +2416,7 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string new_game
+string next_hole
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2423,6 +2427,7 @@ string play
 string player
 string player_1
 string player_2
+string previous_hole
 string saved_games
 string scoreboard
 string search_menu_title

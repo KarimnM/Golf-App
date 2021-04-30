@@ -1,6 +1,5 @@
 package com.example.thebtilliantsmini_golf;
 
-//Added some gradle scripts for the compability
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -23,10 +22,6 @@ import java.util.ArrayList;
 
 public class ScoreboardActivity extends AppCompatActivity {
 
-
-//    TextView hole = findViewById(R.id.holeNum);
-//     hole.setText("1");
-//    int hole1=Integer.parseInt(hole.getText().toString());
 
 
     @Override
