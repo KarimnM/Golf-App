@@ -13,7 +13,6 @@
         <activity android:name=".AddPlayer" />
         <activity android:name=".addPlayerActivity" />
         <activity android:name=".ScoreboardActivity" />
-        <activity android:name=".SavedGameActivity" />
         <activity android:name=".NewGameActivity" />
         <activity android:name=".HelpActivity" />
         <activity android:name=".Splash">
