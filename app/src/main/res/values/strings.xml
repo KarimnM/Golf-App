@@ -87,8 +87,8 @@
     <string name="default_score">0</string>
     <string name="player">Player</string>
     <string name="placeholder">Placeholder Name</string>
-    <string name="next_hole">Next<br/>Hole</string>
-    <string name="previous_hole">Previous<br/>Hole</string>
+    <string name="next_hole">Next<br />Hole</string>
+    <string name="previous_hole">Previous<br />Hole</string>
     <string name="finish">End Game</string>
 
 
