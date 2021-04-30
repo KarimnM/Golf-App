@@ -62,13 +62,13 @@
     <!--Help Page-->
     <string name="help">Help</string>
     <string name="help_text">
-        Let\&apos;s explain how everything works!<br /><br /><br />
-        <b>New Game: </b>This is button will direct you to a page where you create a new game.<br /><br />
-        <b>Resume Game: </b>Resume a game in progress if there is one.<br /><br /><br />
-        <b>Creating a game: </b><br /><br />
+        Let\&apos;s explain how everything works!\n\n\n
+        <b>New Game: </b>This is button will direct you to a page where you create a new game.\n\n
+        <b>Resume Game: </b>Resume a game in progress if there is one.\n\n\n
+        <b>Creating a game: </b>\n\n
         Enter the name and ball color of each player and click add. When you are done, press &#8220;LET\&apos;S PLAY.&#8221;
-        Note that only four players can be added per game.<br /><br /><br />
-        <b>Keeping score: </b><br /><br />
+        Note that only four players can be added per game.\n\n\n
+        <b>Keeping score: </b>\n\n
         Choose the hole you are on, and enter the number of strokes made by each player for that particular hole.
         The total score for each player is added automatically. When you are done playing, simply hit
         the &#8220;END GAME&#8221; button.
