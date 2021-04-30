@@ -62,13 +62,21 @@
     <!--Help Page-->
     <string name="help">Help</string>
     <string name="help_text">
-        Lets explain how all the buttons work!\n\nNew Game: This is button will direct you to a page where you create a new game.\nLoad Game: Load previous saved games and start were you left off!\n\n
-     <b> How to create a game:</b>\n
-        Type in the name of the players and change your colors, afterwards click Lets Play! </string>
+        Let\&apos;s explain how everything works!<br /><br /><br />
+        <b>New Game: </b>This is button will direct you to a page where you create a new game.<br /><br />
+        <b>Resume Game: </b>Resume a game in progress if there is one.<br /><br /><br />
+        <b>Creating a game: </b><br /><br />
+        Enter the name and ball color of each player and click add. When you are done, press &#8220;LET\&apos;S PLAY.&#8221;
+        Note that only four players can be added per game.<br /><br /><br />
+        <b>Keeping score: </b><br /><br />
+        Choose the hole you are on, and enter the number of strokes made by each player for that particular hole.
+        The total score for each player is added automatically. When you are done playing, simply hit
+        the &#8220;END GAME&#8221; button.
+    </string>
 
 
     <!--New Game Page-->
-    <string name="play">Let\'s Play!</string>
+    <string name="play">Let\&apos;s Play!</string>
     <string name="enter_game_title_here">Enter game title here</string>
     <string name="instructions_new_game">Enter player names and ball colors. Maximum 4 players.</string>
     <string name="add_players">Add Players</string>

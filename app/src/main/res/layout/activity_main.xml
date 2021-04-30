@@ -80,7 +80,7 @@
         android:layout_height="17dp"
         android:fontFamily="@font/proxima_nova_regular"
         android:text="@string/copyright"
-        android:textColor="#0C0E0E"
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.066"

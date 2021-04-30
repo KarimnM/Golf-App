@@ -13,14 +13,7 @@ public class HelpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
-        ImageButton hpImBt = findViewById(R.id.HPimageBt);
 
-        hpImBt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mainActivity();
-            }
-        });
 
     }
 

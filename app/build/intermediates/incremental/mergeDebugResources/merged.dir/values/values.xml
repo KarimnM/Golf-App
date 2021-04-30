@@ -1110,9 +1110,17 @@
     <string name="full_scorecard">Full Scorecard</string>
     <string name="help">Help</string>
     <string name="help_text">
-        Lets explain how all the buttons work!\n\nNew Game: This is button will direct you to a page where you create a new game.\nLoad Game: Load previous saved games and start were you left off!\n\n
-     <b> How to create a game:</b>\n
-        Type in the name of the players and change your colors, afterwards click Lets Play! </string>
+        Let\'s explain how everything works!<br/><br/><br/>
+        <b>New Game: </b>This is button will direct you to a page where you create a new game.<br/><br/>
+        <b>Resume Game: </b>Resume a game in progress if there is one.<br/><br/><br/>
+        <b>Creating a game: </b><br/><br/>
+        Enter the name and ball color of each player and click add. When you are done, press “LET\'S PLAY.”
+        Note that only four players can be added per game.<br/><br/><br/>
+        <b>Keeping score: </b><br/><br/>
+        Choose the hole you are on, and enter the number of strokes made by each player for that particular hole.
+        The total score for each player is added automatically. When you are done playing, simply hit
+        the “END GAME” button.
+    </string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="instructions_new_game">Enter player names and ball colors. Maximum 4 players.</string>

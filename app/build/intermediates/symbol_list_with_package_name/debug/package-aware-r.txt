@@ -1700,7 +1700,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id HPimageBt
 id HPimageBt3
 id HPimageBt4
 id META
@@ -1891,6 +1890,7 @@ id groups
 id guideline
 id guideline2
 id guideline3
+id header
 id header_title
 id helpButton
 id helpImageButton3
@@ -2111,8 +2111,6 @@ id textTop
 id textView
 id textView12
 id textView2
-id textView3
-id textView4
 id textView6
 id textView7
 id textView8
@@ -2220,6 +2218,7 @@ layout activity_help
 layout activity_listing_scores
 layout activity_main
 layout activity_newgame
+layout activity_ranks
 layout activity_scoreboard
 layout activity_splash
 layout custom_dialog
