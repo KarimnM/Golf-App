@@ -1767,7 +1767,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addPlayerRec
 id addPlayerRecycler
 id alertTitle
 id aligned
@@ -1789,9 +1788,6 @@ id blocking
 id bottom
 id bounce
 id button
-id button2
-id button3
-id button4
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2215,10 +2211,8 @@ layout abc_tooltip
 layout activity_add_player
 layout activity_add_player2
 layout activity_help
-layout activity_listing_scores
 layout activity_main
 layout activity_newgame
-layout activity_ranks
 layout activity_scoreboard
 layout activity_splash
 layout custom_dialog

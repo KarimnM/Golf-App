@@ -21,8 +21,6 @@ com/example/thebtilliantsmini_golf/HelpActivity.java
  com.example.thebtilliantsmini_golf.HelpActivity
 com/example/thebtilliantsmini_golf/SelectedHoleLis.java
  com.example.thebtilliantsmini_golf.SelectedHoleLis
-com/example/thebtilliantsmini_golf/listingScores.java
- com.example.thebtilliantsmini_golf.listingScores
 com/example/thebtilliantsmini_golf/PlayerInfoAdapter.java
  com.example.thebtilliantsmini_golf.PlayerInfoAdapter
  com.example.thebtilliantsmini_golf.PlayerInfoAdapter$1
