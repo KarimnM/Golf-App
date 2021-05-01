@@ -1699,7 +1699,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id HPimageBt3
 id META
 id NO_DEBUG
 id SHIFT
@@ -1870,7 +1869,6 @@ id flip
 id floating
 id forever
 id gameTitle1
-id gameTitleEdit
 id getPlayerName
 id ghost_view
 id ghost_view_holder
@@ -1886,7 +1884,6 @@ id guideline3
 id header
 id header_title
 id helpButton
-id helpImageButton3
 id hideable
 id holeSpinner
 id home
@@ -1914,7 +1911,6 @@ id largeLabel
 id layout
 id left
 id leftToRight
-id letsPlayButton
 id line1
 id line3
 id linear
@@ -2101,7 +2097,6 @@ id textTop
 id textView
 id textView12
 id textView2
-id textView7
 id textView8
 id text_input_end_icon
 id text_input_error_icon
@@ -2204,7 +2199,6 @@ layout abc_tooltip
 layout activity_add_player2
 layout activity_help
 layout activity_main
-layout activity_newgame
 layout activity_scoreboard
 layout activity_splash
 layout custom_dialog
