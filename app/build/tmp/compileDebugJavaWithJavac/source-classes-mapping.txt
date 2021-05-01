@@ -31,8 +31,6 @@ com/example/thebtilliantsmini_golf/ScoreboardActivity.java
  com.example.thebtilliantsmini_golf.ScoreboardActivity$2
  com.example.thebtilliantsmini_golf.ScoreboardActivity$3
  com.example.thebtilliantsmini_golf.ScoreboardActivity$4
-com/example/thebtilliantsmini_golf/DBHelper.java
- com.example.thebtilliantsmini_golf.DBHelper
 com/example/thebtilliantsmini_golf/AddPlayer.java
  com.example.thebtilliantsmini_golf.AddPlayer
  com.example.thebtilliantsmini_golf.AddPlayer$1
