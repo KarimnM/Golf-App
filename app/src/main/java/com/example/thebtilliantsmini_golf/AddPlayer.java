@@ -20,9 +20,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class AddPlayer extends AppCompatActivity {
-    DBHelper mDatabaseHelp;
-    EditText text;
-    Button Add; //adding add button
     Button Adding;
     Button save;
     ListView addedItems;
@@ -31,9 +28,8 @@ public class AddPlayer extends AppCompatActivity {
     ArrayList<String> player;
     PlayerAdapter addedPlayerAdapter;
     ArrayAdapter<String> adapter;
-    EditText getRecipeName;
     EditText getPlayerName;
-    DBManger DB;
+    //DBManger DB;
     int  selectedColor=-1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,9 +41,7 @@ public class AddPlayer extends AppCompatActivity {
         save = (Button) findViewById(R.id.Save);
         addedItems = (ListView) findViewById(R.id.VVTest);
         addedItemsRecycler =  findViewById(R.id.addPlayerRecycler);
-        DB = new DBManger(AddPlayer.this);
         player = new ArrayList<>();
-        //    mDatabaseHelp = new DatabaseHelper()
         Spinner colorSpinner=findViewById(R.id.colorSpinner);
 
 
