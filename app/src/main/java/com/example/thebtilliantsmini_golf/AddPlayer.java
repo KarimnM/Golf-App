@@ -104,11 +104,6 @@ public class AddPlayer extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                //   Recipe r = new Recipe();
-                //  r.setName(getRecipeName.getText().toString());
-                // r.setIngredientsList(arrayList);
-                // r.setLastUpdate(Calendar.getInstance().getTimeInMillis());
-                // DB.insertRecpiToDataBase(r);
                 Intent i = new Intent(getApplicationContext(), ScoreboardActivity.class);
                 i.putExtra("PlayerList", arrayList);
                 startActivity(i);
