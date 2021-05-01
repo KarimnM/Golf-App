@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 noGameDialog();
 
                 //ELSE
+
+                /*
+                    Open the Scoreboard Activity with the current score statistics
+                 */
             }
         });
 
