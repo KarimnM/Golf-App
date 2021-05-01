@@ -9,8 +9,6 @@ com/example/thebtilliantsmini_golf/MainActivity.java
 com/example/thebtilliantsmini_golf/Splash.java
  com.example.thebtilliantsmini_golf.Splash
  com.example.thebtilliantsmini_golf.Splash$1
-com/example/thebtilliantsmini_golf/Ranks.java
- com.example.thebtilliantsmini_golf.Ranks
 com/example/thebtilliantsmini_golf/PlayerColor.java
  com.example.thebtilliantsmini_golf.PlayerColor
 com/example/thebtilliantsmini_golf/ItemHolder.java
