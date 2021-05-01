@@ -1701,7 +1701,6 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id HPimageBt3
-id HPimageBt4
 id META
 id NO_DEBUG
 id SHIFT
@@ -1871,7 +1870,6 @@ id fixed
 id flip
 id floating
 id forever
-id gameTitle
 id gameTitle1
 id gameTitleEdit
 id getPlayerName
@@ -1917,7 +1915,6 @@ id largeLabel
 id layout
 id left
 id leftToRight
-id letsPlay
 id letsPlayButton
 id line1
 id line3
@@ -2005,8 +2002,6 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id player1
-id player2
 id playerColorName
 id playerInfo
 id playerName
@@ -2107,7 +2102,6 @@ id textTop
 id textView
 id textView12
 id textView2
-id textView6
 id textView7
 id textView8
 id text_input_end_icon
@@ -2208,7 +2202,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_add_player
 layout activity_add_player2
 layout activity_help
 layout activity_main
