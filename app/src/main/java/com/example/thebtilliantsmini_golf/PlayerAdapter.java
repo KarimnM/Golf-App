@@ -42,7 +42,7 @@ public class PlayerAdapter extends RecyclerView.Adapter<ItemHolder> {
 
 
     }
-
+//Commit of the day
 
     public void setPlayerList(List<Player> playerList) {
         this.playerList = playerList;
