@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AddPlayer" />
-        <activity android:name=".addPlayerActivity" />
         <activity android:name=".ScoreboardActivity" />
         <activity android:name=".NewGameActivity" />
         <activity android:name=".HelpActivity" />
